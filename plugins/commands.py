@@ -77,7 +77,7 @@ async def purge_delay(c: Bot, m: Message):
 
 
 # ------------------------------- Delete duplicate function --------------------- #
-@Bot.on_message(filters.private & filters.user(Config.AUTH_USERS) & filters.command('purge'))
+@Bot.on_message(filters.private & filters.command('purge'))
 async def delete_duplicates(c: Bot, m: Message):
     id_index = []
     duplicates = delay = count = int()
