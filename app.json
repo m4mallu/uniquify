@@ -1,0 +1,25 @@
+{
+  "name": "uniquify",
+  "description": "Telegram's best Open Source duplicate media removing bot. Create your Fork now.",
+  "keywords": ["telegram", "best", "duplicate", "media", "removing", "robot"],
+  "logo": "https://img.apksum.com/4c/com.duplicate.files.remover.duplicatefinderfiles/1.0/icon.png",
+  "website": "https://github.com/m4mallu/uniquify",
+  "repository": "https://github.com/m4mallu/uniquify",
+  "env": {
+        "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
+        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
+        "TG_BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
+        "TG_USER_SESSION": {"description": "String Session from an admin user. Go to: t.ly/GxsB ","required": true},
+        "AUTH_USERS": {"description": "User ids of authorized users separated by space", "required": true},
+        "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
+  },
+  "buildpacks": [
+    {"url": "heroku/python"}
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
