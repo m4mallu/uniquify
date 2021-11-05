@@ -1,6 +1,6 @@
 <h1 align="left">
     <a href="https://github.com/m4mallu">Uniquify</a>
-    <img src="https://i.gifer.com/7Ie5.gif" height="45">
+    <img src="https://telegra.ph/file/a71f4bc9ab29ac3c80c1e.gif" height="50">
 </h1>
 
 #### Uniquify is a Telegram interface bot that can delete the duplicate media files from a chat.
