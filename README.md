@@ -53,7 +53,7 @@
 <details>
     <summary><b>Generate User Session</b></summary>
     <p align="left"></p>
-    <a href="https://replit.com/@ayrahikari/pyrogram-session-maker">
+    <a href="https://replit.com/@m4mallu/PyrogramStringSessionMaker">
         <img src="https://img.shields.io/badge/Generate-String%20Session-orange" height="30" />
 </a>
     <ul>
